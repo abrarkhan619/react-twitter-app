@@ -1,0 +1,38 @@
+
+html {
+    border: 0;
+    margin: 0;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.feed-container {
+    max-width: 600px;
+    flex: 1 1;
+    justify-items: center;
+}
+
+.trending-container {
+    width: auto;
+    border-left: 1px solid #d8dce3;
+    justify-items: flex-start;
+    overflow: auto;
+    padding-right: 25px;
+}
+.search-bar {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;  
+    background: #E6ECF0;
+    padding-left: 10px; 
+    margin-left: 20px;
+    border-radius: 25px;
+    border: 0px solid rgb(150, 150, 150);
+    outline: none;
+}

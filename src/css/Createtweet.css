@@ -1,0 +1,80 @@
+.createtweet__textarea {
+    width: 600px;
+    height:100px;
+    border: 0;
+    font-size: 20px;
+    /* overflow: auto; */
+    
+}
+
+.createtweet__button {
+    background-color: rgb(144, 210, 250);
+    color:white;
+    border-color: rgb(144, 210, 250);
+    width:80px;
+    font-size: 15px;
+    outline: none;
+}
+
+.createtweet__button:hover {
+    background-color: rgb(5, 142, 228);
+    cursor: pointer;
+}
+
+.createtweet__header {
+    font-weight:bold;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+
+.createtweet__icon {
+    width:22px;
+    height: 22px;
+    fill:rgb(93, 163, 243);
+}
+
+
+.createtweet__icon:hover {
+    background-color: lightblue;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.createtweet__iconsection {
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-bottom:10px;
+    border-bottom: 10px solid rgb(230, 236, 240);
+}
+
+.createtweet__icon {
+    margin-right:20px;
+}
+
+.createtweet__headersection {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8dce3;
+}
+
+.createtweet__staricon {
+    width:22px;
+    height: 22px;
+    fill:rgb(93, 163, 243);
+}
+
+.createtweet__staricon:hover {
+    background-color: lightblue;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.createtweet__textarea::placeholder {
+    font-size: 20px;
+    font-family:"Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}

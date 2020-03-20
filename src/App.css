@@ -1,0 +1,15 @@
+html {
+    margin: 0;
+}
+
+.main-container {
+    border: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-container {
+    border: 0;
+}

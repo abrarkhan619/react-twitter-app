@@ -1,0 +1,77 @@
+* {box-sizing: border-box;}
+
+
+.wrapper {
+  border-top: 0.25px solid #CAC9C9;
+  line-height: 1px;
+  padding: 10px;
+}
+
+.wrapper:hover {
+  background-color: rgb(221, 227, 231);
+}
+
+.headline {
+  font-size: 20px;
+  font-family:"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.trendingCountry {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.tweetNumber {
+  color: grey;
+}
+
+.container {
+  background-color: #FCFAFA;
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.arrowdown {
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.trendingContainer {
+  display: flex;
+  justify-content: space-between;
+  /* height: 100vh; */
+}
+
+.arrowdown h4:hover {
+  color:rgb(101, 119, 134);
+}
+/* 
+h4 {
+  margi
+} */
+
+.conditions {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-around;
+  color: rgb(160, 158, 158);
+  width: 18vw;
+  margin-left: 40px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.copyright{
+  color: rgb(160, 158, 158);
+  width: 18vw;
+  margin-left: 50px;
+  font-size: 12px;
+}
